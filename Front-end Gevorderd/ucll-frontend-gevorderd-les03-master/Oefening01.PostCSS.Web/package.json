@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "oefening01-postcss",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "css-loader": "^3.5.2",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

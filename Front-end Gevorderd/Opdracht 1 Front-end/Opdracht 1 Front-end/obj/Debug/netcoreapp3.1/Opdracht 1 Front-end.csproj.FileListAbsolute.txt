@@ -1,0 +1,20 @@
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\bin\Debug\netcoreapp3.1\Opdracht 1 Front-end.exe
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\bin\Debug\netcoreapp3.1\Opdracht 1 Front-end.deps.json
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\bin\Debug\netcoreapp3.1\Opdracht 1 Front-end.runtimeconfig.json
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\bin\Debug\netcoreapp3.1\Opdracht 1 Front-end.runtimeconfig.dev.json
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\bin\Debug\netcoreapp3.1\Opdracht 1 Front-end.dll
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\bin\Debug\netcoreapp3.1\Opdracht 1 Front-end.pdb
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\Opdracht 1 Front-end.csprojAssemblyReference.cache
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\Opdracht 1 Front-end.csproj.CoreCompileInputs.cache
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\Opdracht 1 Front-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\Opdracht 1 Front-end.AssemblyInfoInputs.cache
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\Opdracht 1 Front-end.AssemblyInfo.cs
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\Opdracht 1 Front-end.RazorTargetAssemblyInfo.cache
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\staticwebassets\Opdracht 1 Front-end.StaticWebAssets.Manifest.cache
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\staticwebassets\Opdracht 1 Front-end.StaticWebAssets.xml
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\Opdracht 1 Front-end.dll
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\Opdracht 1 Front-end.pdb
+C:\Users\xormi\source\repos\Opdracht 1 Front-end\Opdracht 1 Front-end\obj\Debug\netcoreapp3.1\Opdracht 1 Front-end.genruntimeconfig.cache

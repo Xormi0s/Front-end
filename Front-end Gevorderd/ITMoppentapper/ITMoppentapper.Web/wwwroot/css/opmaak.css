@@ -1,0 +1,57 @@
+﻿#mopText {
+    display:block;
+    width: 450px;
+    height: 125px;
+    background-color: lightslategrey;
+    margin-bottom: 15px;
+}
+
+#mopB {
+    background-color: white;
+    width: 450px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 0px;
+    border-color: black;
+    box-shadow: 5px 5px;
+}
+
+#wrapFooter {
+    margin-top: 25%;
+    display: block;
+    padding-left: 20px;
+    width: 95%;
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#ScoreOpmerkingen {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#score {
+    width: 45px;
+    height: 25px;
+    margin-left: 25px;
+    margin-right: 35px;
+    text-align:center;
+}
+
+#opmerkingen {
+    margin-left: 25px;
+    width: 70%;
+    height: 25px;
+}
+
+#feedbackB {
+    background-color: white;
+    margin-left: 25px;
+    width: 200px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 0px;
+    border-color: black;
+    box-shadow: 5px 5px;
+}

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="opmaak.css" rel="stylesheet" />
+    <title>URL Checker</title>
+</head>
+<body>
+    <h1>URL Checker</h1>
+    <p>Te valideren URL <input type="text" id="input" name="input"/></p>
+    <input type="button" id="check" name="check" value="Controleer" onclick="checkurl()"/>
+    <br />
+    <hr />
+    <div id="output">
+        <table>
+            <tr>
+                <td width="150px">Schema</td>
+                <td><input type="text" id="Schema" name="Schema" /></td>
+            </tr>
+            <tr>
+                <td>Host</td>
+                <td><input type="text" id="Host" name="Host" /></td>
+            </tr>
+            <tr>
+                <td>Port</td>
+                <td><input type="text" id="Port" name="Port" /></td>
+            </tr>
+            <tr>
+                <td>Path</td>
+                <td><input type="text" id="Path" name="Path" /></td>
+            </tr>
+            <tr>
+                <td>Query string</td>
+                <td><input type="text" id="Query" name="Query" /></td>
+            </tr>
+            <tr>
+                <td>Fragment</td>
+                <td><input type="text" id="Fragment" name="Fragment" /></td>
+            </tr>
+        </table>
+    </div>
+    <script src="urlscript.js"></script>
+</body>
+</html>

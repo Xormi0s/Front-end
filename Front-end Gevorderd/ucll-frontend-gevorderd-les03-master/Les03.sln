@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkshopSASS.Web", "WorkshopSASS.Web\WorkshopSASS.Web.csproj", "{8E56F92B-1724-45FB-9938-03CF1B37E579}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening01.PostCSS.Web", "Oefening01.PostCSS.Web\Oefening01.PostCSS.Web.csproj", "{958CCDCA-572B-4DF2-B866-B60773ADD4F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening02.BootstrapViaCDN.Web", "Oefening02.BootstrapViaCDN.Web\Oefening02.BootstrapViaCDN.Web.csproj", "{67F8A5ED-DA8D-467F-B550-E118F3D75514}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening03.BootstrapViaNPM.Web", "Oefening03.BootstrapViaNPM.Web\Oefening03.BootstrapViaNPM.Web.csproj", "{29364AEA-69A5-432E-93E1-3C7FC94673FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening04.UrlCheckerWithStyle.Web", "Oefening04.UrlCheckerWithStyle.Web\Oefening04.UrlCheckerWithStyle.Web.csproj", "{795BCE75-3AC0-47C6-BED1-6676FEE39F54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening05.JavaScriptBundling.Web", "Oefening05.JavaScriptBundling.Web\Oefening05.JavaScriptBundling.Web.csproj", "{32ED1515-A4D6-4F54-97ED-28877D5D414B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E56F92B-1724-45FB-9938-03CF1B37E579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E56F92B-1724-45FB-9938-03CF1B37E579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E56F92B-1724-45FB-9938-03CF1B37E579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E56F92B-1724-45FB-9938-03CF1B37E579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958CCDCA-572B-4DF2-B866-B60773ADD4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958CCDCA-572B-4DF2-B866-B60773ADD4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958CCDCA-572B-4DF2-B866-B60773ADD4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958CCDCA-572B-4DF2-B866-B60773ADD4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F8A5ED-DA8D-467F-B550-E118F3D75514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F8A5ED-DA8D-467F-B550-E118F3D75514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F8A5ED-DA8D-467F-B550-E118F3D75514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F8A5ED-DA8D-467F-B550-E118F3D75514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29364AEA-69A5-432E-93E1-3C7FC94673FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29364AEA-69A5-432E-93E1-3C7FC94673FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29364AEA-69A5-432E-93E1-3C7FC94673FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29364AEA-69A5-432E-93E1-3C7FC94673FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795BCE75-3AC0-47C6-BED1-6676FEE39F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795BCE75-3AC0-47C6-BED1-6676FEE39F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795BCE75-3AC0-47C6-BED1-6676FEE39F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795BCE75-3AC0-47C6-BED1-6676FEE39F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ED1515-A4D6-4F54-97ED-28877D5D414B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ED1515-A4D6-4F54-97ED-28877D5D414B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ED1515-A4D6-4F54-97ED-28877D5D414B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ED1515-A4D6-4F54-97ED-28877D5D414B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {821E16B4-BE3C-44C6-B001-0E9B51F7C16B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>UCLL URL Checker ... with Bootstrap 4 style!</title>
+    <!--        
+        De css zit nu embedded in main.js (webpack heeft dit mee gebundeld).
+        <link href="site.css" rel="stylesheet" />
+    -->
+</head>
+<body>
+    <h1>UCLL URL Checker ... with Bootstrap 4 style!</h1>
+    <form>
+        <!-- Test strings:
+            https://www.symbolics.com:8080/hello?who=world#fragment 
+        -->
+        <label for="url">Te valideren URL</label>
+        <input type="text" id="url" name="url" class="input-large" />
+        <br />
+        <!-- Deze button gaat nog steeds uit van een 'checkUrl' functie die globaal gedefinieerd werd.
+            Om dat te kunnen verwezenlijken hebben we de functie zelf moeten plaatsen op het window object in url-checker.js
+            Zie de commentaar in die file voor meer info.
+            -->
+        <input type="button" value="Controleer" onclick="checkUrl()" />
+        <br />
+    </form>
+    <section id="urlParts" style="display: none">
+        <hr />
+        <label for="url" class="label-medium">Schema</label>
+        <input type="text" id="schema" name="schema" readonly />
+        <br />
+        <label for="url" class="label-medium">Host</label>
+        <input type="text" id="host" name="host" readonly />
+        <br />
+        <label for="url" class="label-medium">Port</label>
+        <input type="text" id="port" name="port" readonly />
+        <br />
+        <label for="url" class="label-medium">Path</label>
+        <input type="text" id="path" name="path" readonly />
+        <br />
+        <label for="url" class="label-medium">Query string</label>
+        <input type="text" id="query" name="query" readonly />
+        <br />
+        <label for="url" class="label-medium">Fragment</label>
+        <input type="text" id="fragment" name="fragment" readonly />
+    </section>
+    <!-- In deze main.js bundle heeft Webpack alles gebundeld (de Boostrap4 CSS+JavaScript, jQuery, PopperJS ... en ook onze eigen CSS+JavaScript code).-->
+    <script src="main.js"></script>
+</body>
+</html>

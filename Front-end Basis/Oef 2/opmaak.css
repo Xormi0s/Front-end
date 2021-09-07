@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+nav{
+	background-color: #333;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul{
+    margin: 0; 	
+    padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+	color: #aaa;  display: block; line-height: 2em; padding: 0.5em 0.5em; text-decoration: none;
+}
+
+nav li > ul{
+	display: none; margin-top:1px; background-color: #bbb;
+}
+
+nav li > ul > li{
+	display: block;
+}
+
+nav  li > ul > li > a{
+	color: #111;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+nav > ul > li > a {
+	color: #aaa;
+    display: block; 
+    line-height: 2em; 
+    padding: 0.5em 2em; 
+    text-decoration: none;
+}
+
+
+nav li > ul{
+	display: none;
+    margin-top:1px;
+    background-color: #bbb;
+}
+
+nav li > ul li{
+	display: block;
+}
+
+nav  li > ul li a{
+	color: #111;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+nav li:hover {
+	background-color: #666;
+}
+
+nav li:hover > ul{
+    position:absolute;
+    display : block;
+}
+
+nav ul > li#sub{
+    background: url(ic_keyboard_arrow_down.png) right center no-repeat;
+}
+
+nav ul > li#sub li#sub{
+    background: url(ic_keyboard_arrow_rigth.png) right center no-repeat;
+}
+

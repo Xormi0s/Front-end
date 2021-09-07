@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wZHnyzmC0iYAr4pnFuFf47ltAp62xaPajkia8bioVZ2S3j8MXl1qnxXOaJBaPF/TlHDZnES5KljZPBRDULdutg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\xormi\\Dropbox\\UCLL\\Front-end\\Front-end Gevorderd\\Opdracht 1 Front-end\\Opdracht 1 Front-end\\Opdracht 1 Front-end.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xormi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Test Front-end basis 18 juni 2020</title>
+    <script type="text/javascript" src="jsexamen.js"></script>
+    <link type="text/css" rel="stylesheet" href="opmaak.css" />
+</head>
+
+<body>
+    <div>
+        <h1> Optellen en aftrekken</h1>
+        <p>Voer een getal in via de cijferknoppen.<br>Klik vervolgens op plus of min.</p>
+
+        <!--Hieronder komt de eerste inputbox en een aantal buttons met cijfers (niet 2 maar 12...) -->
+        <input id="inputB" value="0">
+        <span id="errorT"></span>
+        <div id="Numbers">
+            <button id="Number" value="1" onclick="Number(1)">1</button>
+            <button id="Number" value="2" onclick="Number(2)">2</button>
+            <button id="Number" value="3" onclick="Number(3)">3</button>
+            <button id="Number" value="4" onclick="Number(4)">4</button>
+            <button id="Number" value="5" onclick="Number(5)">5</button>
+            <button id="Number" value="6" onclick="Number(6)">6</button>
+            <button id="Number" value="7" onclick="Number(7)">7</button>
+            <button id="Number" value="8" onclick="Number(8)">8</button>
+            <button id="Number" value="9" onclick="Number(9)">9</button>
+            <button id="Number" value="0" onclick="Number(0)">0</button>
+        </div>
+        
+        <div id="Operators">
+            <button id="plus" value="+" onclick="Operator(1)">+</button>
+            <button id="min" value="-" onclick="Operator(2)">-</button>
+        </div>
+        <p>Resultaat: </p>
+
+        <!--Hieronder komt de tweede inputbox en een reset-button-->
+
+        <input id="uitkomstB" value="0">
+        <button id="ResetB" onclick="Reset()">RESET</button>
+    </div>
+</body>
+
+</html>

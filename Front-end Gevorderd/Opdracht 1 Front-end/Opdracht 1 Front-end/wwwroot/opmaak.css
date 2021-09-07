@@ -1,0 +1,12 @@
+﻿body {
+    background-color:lightgrey;
+}
+
+
+#input{
+    width:500px;
+}
+
+div#output{
+    display:none;
+}

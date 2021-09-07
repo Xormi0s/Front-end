@@ -1,0 +1,75 @@
+Html{
+    background-color: lightgray;
+}
+
+#Numbers{
+    display: block;
+    width: 250px;
+    height: 400px;
+    padding-top: 20px;
+}
+
+#Number{
+    width: 80px;
+    height: 80px;
+    font-size: 1.5em;
+    background-color: white;
+    margin-top: 5px;
+}
+
+#Operators{
+    display: block;
+    width: 200px;
+    height: 100px;
+}
+
+#plus{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+#min{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+input{
+    font-size: 3.5em;
+    background-color: darkgray;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 20px;
+    width: 350px;
+    text-align: end;
+}
+
+#ResetB{
+    clear: both;
+    display: block;
+    width: 350px;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: white;
+}
+
+#errorT{
+    font-size: 1.8em;
+    color: red;
+}
+
+#Number:hover{
+    color: red;
+}
+
+#plus:hover{
+    color: red;
+}
+
+#min:hover{
+    color: red;
+}

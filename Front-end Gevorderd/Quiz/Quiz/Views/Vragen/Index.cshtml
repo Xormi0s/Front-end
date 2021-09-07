@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Quiz";
+}
+
+<div id="Start">
+    <p>
+        <h1>Quiz Front-End Gevorderd</h1>
+        Welkom op de quiz voor Front-End Gevorderd.
+        <br /><br />
+        De quiz bestaat uit 20 vragen waarvan multiple choice en u heeft per vraag 30 seconde de tijd om een antwoord te kiezen !
+        <br />Op het einde word u score berekend en om te winnen moet je minimum 60% halen. Ook is er de mogelijkheid hierna om een overzicht te krijgen van alle vragen met het correcte antwoord.
+    </p>
+    <br /><br />
+    <input type="button" id="StartB" name="StartB" value="Start Quiz" class="btn btn-primary">
+</div>
+<div id="Antwoorden" style="display:none">
+    
+</div>
+
+<div id="wrapVraagTimer">
+    <div id="VragenTop" style="display:none">
+
+    </div>
+    <div id="AntwoordenB" style="display:none">
+        <input type="button" id="AntwoordenB" value="Lijst met correcte antwoorden" name="AntwoordenB" class="btn btn-outline-success" />
+    </div>
+    <div id="VragenBot" style="display:none">
+
+    </div>
+    <div id="Timer" style="display:none">
+    </div>
+</div>
+
+<div id="VolgendeKnop" style="display:none">
+    <input type="button" id="volgende" value="Volgende" name="volgende" class="btn btn-outline-success" />
+</div>
+
+@*Inspiratie tutorial https://www.youtube.com/watch?v=eLnjGsCSTB8*@
+<div class="container">
+    <div id="progressBar" style="display:none">
+        <div id="percentage">
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/vragen.js"></script>
+}
+
+

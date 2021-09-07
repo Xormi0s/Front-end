@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welkom</title>
+    </head>
+    <body>
+        <p id="output"></p>
+        
+        <script>
+            var d = new Date();
+            var c = d.getHours();
+            var text;
+            
+            if(c <= 6){
+                text = 'Goede nacht';
+            }
+            
+            if(c <= 9){
+                text = 'Goede morgen';
+            }
+            
+            if(c <= 17){
+                text = 'Goede middag';
+            }
+            
+            if(c <= 24){
+                text = 'Goede avond';
+            }
+            
+            var days = ["zondag","maandag","dinsdag","woensdag","donderdag","vrijag","zaterdag"];
+            
+            document.getElementById("output").innerHTML = text + ', het is vandaag ' + days[d.getDay()]
+        </script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>De IT Moppentapper</title>
+    <link rel="stylesheet" type="text/css" href="./css/opmaak.css">
+</head>
+<body>
+    <header>
+        <h1>De IT Moppentapper</h1>
+    </header>
+    <main>
+        <div id="mopText">
+
+        </div>
+        <div id="buttonDiv">
+            <input type="button" id="mopB" value="Nog een mop!" name="mopB" />
+        </div>
+    </main>
+    <footer>
+
+        <div id="wrapFooter">
+            <h1>Tevredenheidmeter - wat vind je van onze moppen?</h1>
+            <div id="ScoreOpmerkingen">
+                Score
+                <input type="number" id="score" name="score" min="0" max="10" value="5">
+
+                Opmerkingen
+
+                <input type="text" id="opmerkingen" name="opmerkingen" placeholder="Opmerkingen?">
+
+                <input type="button" id="feedbackB" value="Feedback sturen" name="feedbackB"/>
+            </div>
+        </div>
+        <!--
+            Voeg hier de HTML markup toe die de tevredenheid van de gebruiker meet (een score van 0 tot en met 10) + opmerkingen toelaat.
+            Voorzie ook een knop om de ingegeven data door te sturen.
+            Lees goed de requirements na (die beschreven staan in de examenopgave).
+            (!) Het effectief doorsturen van de data door middel van een HTTP POST AJAX call is bonusfunctionaliteit.
+                Het doorsturen doe je naar de relatieve url '/tevredenheid/registreer'.
+                Meer informatie kan je terugvinden bij /Controllers/TevredenheidController.cs.
+        -->
+    </footer>
+    <script src="./js/moppen.js"></script>
+</body>
+</html>
